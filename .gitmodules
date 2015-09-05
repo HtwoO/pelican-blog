@@ -1,0 +1,3 @@
+[submodule "pelican-dark-theme"]
+	path = pelican-dark-theme
+	url = git@github.com:HtwoO/pelican-dark-theme.git
