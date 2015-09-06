@@ -45,7 +45,7 @@ LOAD_CONTENT_CACHE = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-#CHECK_MODIFIED_METHORD = 'md5'
+CHECK_MODIFIED_METHORD = 'md5'
 
 #PYGMENTS_STYLE = 'desert'
 GITHUB_USER = 'HtwoO'
