@@ -8,7 +8,7 @@ author: Fonzie
 
 最近在帮朋友从 U 盘安装 Linux，这么好的推广自由软件的机会，怎么能放过。但在 Windows 尝试了 n 个方法之后，依然没能做出一个可作为安装介质的 U 盘，然后只能依靠好老（Good old）的 dd 咯。但使用 `dd` 命令操作时，在命令完成以前，默认没有任何输出信息，看不到执行的进度，不太方便。那句话怎么说来着：["All mail clients suck. This one just sucks less."](http://www.mutt.org/)，这里应该说 All other tools suck. dd just suck less。在网上查找了一下怎么给 dd 加进度显示，让 dd 用户体验更好些。
 
-这次我第二次需要这么做了，本着 DRY（Don't Repeat Yourself，不要重复学习）的原则，把方法记录在博客里，以防以后再次用到。
+这是我第二次需要这么做了，本着 DRY（Don't Repeat Yourself，不要重复学习）的原则，把方法记录在博客里，以防以后再次用到。
 
 可以使用 `pv`（Pipe Viewer）来查看 Unix [管道](https://zh.wikipedia.org/zh/管道_(Unix))的数据传输情况，把 dd 的输入输出部分分开。此方法需要系统里安装有 pv，然后执行如下命令：
 

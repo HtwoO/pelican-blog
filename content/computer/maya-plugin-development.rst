@@ -38,13 +38,13 @@ Steps to setup Visual Studio 2010 Express edition to compile maya plugin.
 
 1. Install vs2010 express.
 
-2. Confirm that there is no newer C++ redistribution/runtime than ones in WinSDK 7.1. If newer ones exists in the system, WinSDK 7.1 will fail when install.
+2. Confirm that there is no newer C++ redistribution/runtime than the ones
+   in WinSDK 7.1. If newer ones exists in the system, WinSDK 7.1 will fail
+   when installed.
 
-3. Confirm that there is no newer C++ redistribution/runtime than ones in WinSDK 7.1. If newer ones exists in the system, WinSDK 7.1 will fail when install.
+3. Install vs2010 sp1
 
-4. Install vs2010 sp1
-
-5. Install vs2010 patch `VC-Compiler-KB2519277`_ (1).
+4. Install vs2010 patch `VC-Compiler-KB2519277`_ (1).
 
 ::
 
